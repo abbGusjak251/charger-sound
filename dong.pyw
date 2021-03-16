@@ -3,7 +3,9 @@ from playsound import playsound
 import psutil
 import os
 
-os.chdir('C:/Users/S0gusjak/Documents/Charge')
+# Change the path to the location of your 'sound.mp3' file
+path = ''
+os.chdir(path)
 was_plugged = False
 
 print(os.path)
